@@ -1,0 +1,4 @@
+- name: Reboot the instance
+        become: yes
+        become_user: root
+        shell: "sleep 5 && reboot"
