@@ -6,4 +6,4 @@
   tasks:
     - name: test
       shell:
-        cmd: "sleep 5 && ls"
+        cmd: "sleep 5 && reboot"
