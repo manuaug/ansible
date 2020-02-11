@@ -1,6 +1,9 @@
-- name: Unconditionally reboot the machine with all defaults
-  hosts: all
-  become: yes
+---
+- name: Test playbook
+  hosts: localhost
+  become: true
+  become_user: root
   tasks:
-    - name: reboot instance
-      reboot:
+    - name: test
+      shell:
+        cmd: "sleep 5 && exit 194"
