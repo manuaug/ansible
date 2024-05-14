@@ -1,0 +1,3 @@
+Here is the full process from creating the VMs to installing packages:
+
+# Create the VMs (create_kvm_vms.yml)
